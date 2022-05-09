@@ -45,4 +45,15 @@ y crear un punto de control usamos lo commit
 ```
 
 git commit -m "mensaje del commit"
-´´´
+```
+
+## Deshacer cambios a partir de los commit
+
+2 opciones:
+
+```
+
+git reset --soft <código-commit>
+```
+
+Con --soft podemos volver a un commit anterior sin hacer cambios
